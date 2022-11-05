@@ -76,8 +76,11 @@ a{
     transition: 0.2s;
 }
 
-
-
+.section-1 a:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
 
 /* media queres */
