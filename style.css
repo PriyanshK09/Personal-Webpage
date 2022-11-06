@@ -1,6 +1,23 @@
 /* global */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+.bg-image {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/986774/pexels-photo-986774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+      
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .area{
     display: grid;
     grid-template-columns: repeat(2,1fr);
